@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/Azul_Mar"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/idToolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Azul_Mar">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_gravity="center"
+            android:background="@color/Branco"
+            android:layout_width="380dp"
+            android:layout_height="2dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:src="@drawable/circulo_prisma"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="20dp"
+            />
+
+        <ImageView
+
+            android:src="@drawable/circulo_hexagono"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            />
+
+        <ImageView
+            android:src="@drawable/circulo_esfera"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:textSize="22sp"
+            android:textColor="@color/Branco"
+            android:textAlignment="center"
+            android:text="Notas Pessoais"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="20dp"
+            />
+
+        <TextView
+            android:textSize="22sp"
+            android:textColor="@color/Branco"
+            android:textAlignment="center"
+            android:text="Notas de Trabalho"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            />
+
+        <TextView
+            android:textSize="22sp"
+            android:textColor="@color/Branco"
+            android:textAlignment="center"
+            android:text="Notas Públicas"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="20dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:layout_gravity="center"
+            android:background="@color/Branco"
+            android:layout_width="380dp"
+            android:layout_height="2dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_marginRight="10dp"
+            android:layout_gravity="left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:background="@color/Azeitona"
+                android:layout_marginTop="10dp"
+                android:layout_width="210dp"
+                android:layout_height="130dp"
+                >
+
+                <TextView
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="    Nota 1"
+                    android:textColor="@color/Preto"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_marginTop="3dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="      Lorem enquanto cenouras,desenvolvedor de graduação melhorada"
+                    android:textColor="@color/Preto"
+                    android:textSize="12dp" />
+
+
+
+            </LinearLayout>
+
+            <TextView
+                android:background="@color/Argila"
+                android:layout_marginTop="10dp"
+                android:layout_width="210dp"
+                android:layout_height="200dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <Button
+                android:textColor="@color/Branco"
+                android:textAlignment="center"
+                android:text="Anexe uma
+                imagem."
+                android:background="@color/Arvore"
+                android:layout_marginTop="10dp"
+                android:layout_width="160dp"
+                android:layout_height="100dp"
+                />
+
+            <TextView
+                android:background="@color/Mostarda"
+                android:layout_marginTop="10dp"
+                android:layout_width="160dp"
+                android:layout_height="230dp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
